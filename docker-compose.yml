@@ -18,3 +18,5 @@ services:
     volumes:
       - cowrie-etc:/cowrie/cowrie-git/etc
       - cowrie-var:/cowrie/cowrie-git/var
+    environment:
+      COWRIE_TELNET_ENABLED: yes
